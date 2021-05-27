@@ -1,0 +1,92 @@
+.App {
+  
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+background-color: rgb(37, 37, 77) !important;
+}
+.control {
+  border: 1px solid;
+  border-radius: 0px;
+  resize: none;
+  
+}
+.text-right{
+ 
+}
+.address{
+  /* padding-top: 40px; */
+  margin-left: 15px;
+}
+.add{
+  padding-top:40px;
+}
+a{
+  color: red;
+}
+
+
+
+.custom-btn{
+  float: right;
+  background-color: rgb(202, 64, 64);
+  border: none !important;
+  border-radius: 0px;
+  color: white;
+  padding: 25px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 8px 4px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.shape{
+  width: 350px; 
+  border-radius:0px;
+  border:0
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form-check-input{
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: 10px !important;
+}
+
+.zoreml{
+  margin-left: 0px !important;
+}
